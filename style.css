@@ -1,0 +1,38 @@
+/* Index designs */
+
+body {
+    background-color: white;
+}
+/* :not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+} */
+input, button, textarea, .btn:focus, .btn:active {
+    outline: none !important;
+    border-width: 0px;
+    /* cursor: text; */
+    box-shadow: none;
+}
+
+.button-select-image {
+    margin: 10px 0px;
+    background-color: transparent;
+}
+.canvas-frame {
+    position: absolute;
+    /* width: 90vw;
+    height: 0px; */
+}
+.rectangle {
+    border: 1px solid black;
+    position: absolute;
+	background-color: rgba(0,255,0,0.2)
+}
+
+/* new */
+.section-1 {
+    background-color: whitesmoke
+}
